@@ -7,7 +7,7 @@
         <a class="nav-link" href="#home"> Home </a>
         <a class="nav-link" href="#about-me-section"> About Me </a>
         <a class="nav-link" href="#skills-section"> Skills </a>
-        <a class="nav-link" href="#projects-section"> Projects </a>
+        <a class="nav-link" href="#project-container"> Projects </a>
         <a class="nav-link" href="#contact-section"> Contact </a>
     </nav>
 </section>

@@ -1,28 +1,28 @@
 {
     "projects": [
         {
-        "title": "Project Title",
-        "description": "Project description goes here. This is a placeholder text for the project description.",
-        "image": "assets/1x/placeholder.png",
-        "link": "#"
+        "title": "Buisness Landing Page",
+        "description": "A landing page I created when I was running an advertising agency called Adverapse.",
+        "image": "assets/1x/adverapse-logo.png",
+        "link": "https://github.com/CElbing/Buisness-Landing-Page"
         },
         {
-        "title": "Project Title",
-        "description": "Project description goes here. This is a placeholder text for the project description.",
-        "image": "assets/1x/placeholder.png",
-        "link": "#"
+        "title": "Credit Fraud Detection",
+        "description": "A Machine Learning algorithm trained using a .csv file containing information regarding credit fraud. Represented with decision tree, k-folds, and random forest",
+        "image": "assets/1x/credit-fraud.png",
+        "link": "https://github.com/CElbing/Credit-Fraud-Detection-ML-Algorithm"
         },
         {
-        "title": "Project Title",
-        "description": "Project description goes here. This is a placeholder text for the project description.",
-        "image": "assets/1x/placeholder.png",
-        "link": "#"
+        "title": "Bridges Health Misc Features",
+        "description": "A webpage made for Bridges Health Winona housing a few misc. features they wanted implemented such as a donation button, rudementary login system, and social media integration.",
+        "image": "assets/1x/web-icon.png",
+        "link": "https://github.com/Sharmarkey/HCI-Proj-2"
         },
         {
-        "title": "Project Title",
-        "description": "Project description goes here. This is a placeholder text for the project description.",
-        "image": "assets/1x/placeholder.png",
-        "link": "#"
+        "title": "CPU Scheduling Algorithms",
+        "description": "I wrote a program that used SJF, RR, PS, and FCFS to simulate how a CPU schedules processes.",
+        "image": "assets/1x/cpu-icon.png",
+        "link": "https://github.com/CElbing/Scheduling-Algorithms-SJF-RR-PS-FCFS-"
         }
     ]
 }
