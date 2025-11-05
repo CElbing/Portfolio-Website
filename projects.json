@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+        "title": "Project Title",
+        "description": "Project description goes here. This is a placeholder text for the project description.",
+        "image": "assets/1x/placeholder.png",
+        "link": "#"
+        },
+        {
+        "title": "Project Title",
+        "description": "Project description goes here. This is a placeholder text for the project description.",
+        "image": "assets/1x/placeholder.png",
+        "link": "#"
+        },
+        {
+        "title": "Project Title",
+        "description": "Project description goes here. This is a placeholder text for the project description.",
+        "image": "assets/1x/placeholder.png",
+        "link": "#"
+        },
+        {
+        "title": "Project Title",
+        "description": "Project description goes here. This is a placeholder text for the project description.",
+        "image": "assets/1x/placeholder.png",
+        "link": "#"
+        }
+    ]
+}

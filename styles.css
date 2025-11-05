@@ -1,0 +1,287 @@
+/* --------------------------------------------------------------------------
+   Modular CSS Variables
+   -------------------------------------------------------------------------- */
+
+:root {
+    --primary-color: #757f64;
+    --primary-color-dark: #5a634f;
+    --secondary-color: #f4f4f4;
+    --tertiary-color: #c7cdbf;
+    --tertiary-color-dark: #a3a99a;
+    --quaternary-color: #e9e2d8;
+    --background-color: white;
+    --secondary-font: "Segoe UI", sans-serif;
+    --paragraph-font-size: 18px;
+    --header-font-size: 36px;
+}
+
+/*--------------------------------------------------------------*/
+
+/* ------------------------------------
+   Raleway Font Family 
+   ------------------------------------ */
+
+/* Raleway Regular 400 */
+.raleway-400 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Raleway Bold 700 */
+.raleway-700 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Raleway Semi-Bold 550 */
+.raleway-550 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+}
+
+/* Raleway Italic 400 */
+.raleway-400i {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*--------------------------------------------------------------*/
+
+/* ------------------------------------
+   Font Attributes
+   ------------------------------------ */
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+
+/*--------------------------------------------------------------*/
+
+
+/* ------------------------------------
+   Flex Box Attributes
+   ------------------------------------ */
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.center-items {
+    align-items: center;
+}
+
+.center-content {
+    justify-content: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-all {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.split-space {
+    justify-content: space-between;
+}
+
+.paragraph-center {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.paragraph-center-small{
+    max-width: 300px;
+    margin: auto;
+}
+/*--------------------------------------------------------------*/
+
+/* ------------------------------------
+   General Styles
+   ------------------------------------ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--secondary-font);
+    background-color: var(--background-color);
+    color: black;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-font-size);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+}
+
+
+/*--------------------------------------------------------------*/
+
+/* ------------------------------------
+   Specific Element Styles
+   ------------------------------------ */
+
+.hero-img {
+    width: 300px;
+    height: auto;
+}
+
+.project-img {
+    width: 75px;
+    height: auto;
+}
+
+.ternary-line-break {
+    width: 180px;
+    height: 2px;
+    background-color: var(--tertiary-color);
+}
+
+.quarternary-line-break {
+    width: 150px;
+    height: 2px;
+    background-color: var(--quaternary-color);
+}
+
+/*--------------------------------------------------------------*/
+
+/* ------------------------------------
+   Margin and Padding Utilities
+   ------------------------------------ */
+.p10 {
+    padding: 10px;
+}
+
+   .p20 {
+    padding: 20px;
+}
+
+.m10-top {
+    margin-top: 10px;
+}
+
+.m20-top {
+    margin-top: 20px;
+}
+
+.m20-bottom {
+    margin-bottom: 20px;
+}
+
+.shadow {
+    box-shadow: 0px 5px 10px rgba(100, 100, 100, 0.1);
+}
+
+/*--------------------------------------------------------------*/
+
+/* ------------------------------------
+   Nav Bar Styles
+   ------------------------------------ */
+
+.nav-link {
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-name {
+    font-size: 18px;
+    padding: 5px;
+    color: var(--primary-color);
+    background-color: var(--quaternary-color);
+    border-radius: 5px;
+}
+
+/*--------------------------------------------------------------*/
+
+/* ------------------------------------
+   Button Styles
+   ------------------------------------ */
+.button-primary {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button-primary:hover {
+    background-color: var(--primary-color-dark);
+    transition: background-color 0.2s ease;
+}
+
+.button-primary-text-only {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.button-primary-text-only:hover {
+    color: var(--primary-color-dark);
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+/*--------------------------------------------------------------*/
+
+/* ------------------------------------
+   Media Query (1068px and above)
+   ------------------------------------ */
+
+@media (min-width: 1068px) {
+    .flex-row-md {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
